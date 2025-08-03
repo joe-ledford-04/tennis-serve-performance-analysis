@@ -11,7 +11,7 @@ Can we quantify when a player wins because of a clear serve performance advantag
 
 # Research Question
 
-Can a player;s serve performance statistically explain the outcome of a match, or are there matches that defy expectations?
+Can a player's serve performance statistically explain the outcome of a match, or are there matches that defy expectations?
 
 # Data Source
 This project uses publicly available match-level data from the [ATP Tour](https://www.atptour.com/) and compiled through [Jeff Sackmann's Tennis Data Repository](https://github.com/JeffSackmann/tennis_atp).
@@ -50,15 +50,15 @@ All data covers men’s singles matches from 2010 through 2024, including Grand 
   - statsmodels (fixed effects regression)
 
  # Key Findings
--Serve performance metrics do explain a meaningful portion of match outcomes, but defintely not all
--Agression (aces/win%) and consistency (serve %, faults) capture different serve strategies.
--Serve strategies have different effects based on what surface a match is being played on and what round a player is in
--Some matches are statistically explainable; others are liekly decided by mental/emotional factors
+- Serve performance metrics do explain a meaningful portion of match outcomes, but defintely not all
+- Agression (aces/win%) and consistency (serve %, faults) capture different serve strategies.
+- Serve strategies have different effects based on what surface a match is being played on and what round a player is in
+- Some matches are statistically explainable; others are liekly decided by mental/emotional factors
 
 # Future Endevors 
--Extend model to predict match outcomes using logistic regression
--Incorporate non-serve data (rallies, return stats, unforced errors)
--Create visulations for indivudal matches that over-or under- perform the model.
+- Extend model to predict match outcomes using logistic regression
+- Incorporate non-serve data (rallies, return stats, unforced errors)
+- Create visulations for indivudal matches that over-or under- perform the model.
 
 # License 
 This proejct is open-source under the MIT License
