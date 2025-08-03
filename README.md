@@ -53,7 +53,7 @@ All data covers men’s singles matches from 2010 through 2024, including Grand 
 - Serve performance metrics do explain a meaningful portion of match outcomes, but defintely not all
 - Agression (aces/win%) and consistency (serve %, faults) capture different serve strategies.
 - Serve strategies have different effects based on what surface a match is being played on and what round a player is in
-- Some matches are statistically explainable; others are liekly decided by mental/emotional factors
+- Some matches are statistically explainable; others are likely decided by mental/emotional factors
 
 # Future Endevors 
 - Extend model to predict match outcomes using logistic regression
