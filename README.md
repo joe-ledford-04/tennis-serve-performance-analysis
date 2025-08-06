@@ -1,9 +1,9 @@
 # Project Summary
 
-This project explores serve performance in men's professional tennis tournaments using panel data (ATP matches 2010-2024). It is inspired by two costrasting upset mathces in the 2025 season: 
+This project explores serve performance in men's professional tennis tournaments using panel data (ATP matches 2010-2024). It is inspired by two costrasting upset matches in the 2025 season: 
 
 Sinner vs. Alcaraz - French Open Final: Despite statistically worse serving, Alcaraz came back after being down two sets and a few match points. 
-Opekla vs. Medvedev - Libéma Open: An unseeded Rielly Opelka served his way to upset the No. 1 seed with 24 aces, 0 double faults, and 72% first serves in.
+Opekla vs. Medvedev - Libéma Open: An unseeded Rielly Opelka served his way to upset the No. 1 seed with 24 aces, 0 double faults, and 72% of first serves in.
 
 These matches raised the question:
 Is it the match or is it the moment?
