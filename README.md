@@ -59,6 +59,7 @@ All data covers men’s singles matches from 2010 through 2024, including Grand 
 
 # Future Endevors 
 - Extend model to predict match outcomes using logistic regression
+- Train feedforward neural network to predict match outcomes
 - Incorporate non-serve data (rallies, return stats, unforced errors)
 - Create visulations for indivudal matches that over-or under- perform the model.
 
