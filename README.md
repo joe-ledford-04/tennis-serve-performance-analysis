@@ -51,9 +51,11 @@ All data covers men’s singles matches from 2010 through 2024, including Grand 
 
  # Key Findings
 - Serve performance metrics do explain a meaningful portion of match outcomes, but defintely not all
-- Agression (aces/win%) and consistency (serve %, faults) capture different serve strategies.
 - Serve strategies have different effects based on what surface a match is being played on and what round a player is in
 - Some matches are statistically explainable; others are likely decided by mental/emotional factors
+- The composite serve performance index reveals that dominant servers are defined more by power and point-outcome than consistency.
+- The index loads most heavily on first serve win %, aces, and even double faults - indcating that high-performing servers tend to serve aggressively and risk faulting more.
+- Surpisingly, first and second serve percentages contribute negatively, suggesting that trying to land more serves in isn't associated with a strong serve performance as much as  winning the points that matter. 
 
 # Future Endevors 
 - Extend model to predict match outcomes using logistic regression
