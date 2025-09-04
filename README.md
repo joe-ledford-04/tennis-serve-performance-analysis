@@ -33,7 +33,7 @@ All data covers men’s singles matches from 2010 through 2024, including Grand 
     - aces and double faults
     - controlled for surface, tournament, and round
 3. Regression Modeling
-  - Ran Fixed Effects regressions to explain variance in serve performance
+  - Ran Fixed Effects regressions to explain variance in serve performance, within each player 
   - adjusted for match-level and player-level fixed effects
   - Achieved adjusted R^2 up to 0.32
 4. Interpretation and Vusulation
@@ -50,6 +50,7 @@ All data covers men’s singles matches from 2010 through 2024, including Grand 
   - statsmodels (fixed effects regression)
 
  # Key Findings
+- Note: Results are conditional on this restricted sample (top-25 by match count); coefficients should be interpreted as within-player effects for these players.
 - Serve performance metrics do explain a meaningful portion of match outcomes, but defintely not all
 - Serve strategies have different effects based on what surface a match is being played on and what round a player is in
 - Some matches are statistically explainable; others are likely decided by mental/emotional factors
@@ -58,6 +59,7 @@ All data covers men’s singles matches from 2010 through 2024, including Grand 
 - Surpisingly, first and second serve percentages contribute negatively, suggesting that trying to land more serves in isn't associated with a strong serve performance as much as  winning the points that matter. 
 
 # Future Endevors 
+- Building Random Effects Model to study cross-player traits
 - Extend model to predict match outcomes using logistic regression
 - Train feedforward neural network to predict match outcomes
 - Incorporate non-serve data (rallies, return stats, unforced errors)
